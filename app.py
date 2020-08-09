@@ -24,7 +24,7 @@ app = Flask(__name__)
 path = Path("models")
 learn = load_learner(path)
 
-print("INICIO")
+print("INICIO DE APP")
 
 
 def model_predict(img_path):
